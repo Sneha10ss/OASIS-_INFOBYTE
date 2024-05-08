@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    /* background-color: #10bff0; */
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    
+      }
+
+.home{
+    /* display: flex; */
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.pexels.com/photos/296234/pexels-photo-296234.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+}
